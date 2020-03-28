@@ -13,7 +13,7 @@ $(function () {
     }).css({
             backgroundColor: "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")",
             border: "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")",
-            boxShadow: Math.floor( Math.random() + 'px') + ',' + Math.floor( Math.random() + 'px') + ',' + Math.floor( Math.random() + 'px') + ',' + Math.floor( Math.random() + 'px')
+            boxShadow: Math.floor( Math.random() + 'px') + ',' + Math.floor( Math.random() + 'px') + ',' + Math.floor( Math.random() + 'px') + ',' + Math.floor( Math.random() + 'px') + "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")"
     })  
     }, 500);
     
